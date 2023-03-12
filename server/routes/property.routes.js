@@ -6,7 +6,7 @@ import {
 } from '../controllers/property.controller.js'
 
 const router = express.Router();
-
+//Routes
 router.route("/").get(getAllProperties);
 router.route("/:id").get(getPropertyDetail);
 router.route("/").post(createProperty);
